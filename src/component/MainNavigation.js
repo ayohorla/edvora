@@ -1,9 +1,10 @@
 import { Link } from 'react-router-dom';
+import classes from './MainNavigation.module.css';
 
 function MainNavigation() {
     return (
-        <header className>
-            <div>Edvora</div>
+        <header className = {classes.rectangle}>
+            <div className={classes.dashboard}>Edvora</div>
             <nav>
                 <ul>
                     <li>

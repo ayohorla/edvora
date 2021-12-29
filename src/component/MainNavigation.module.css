@@ -1,0 +1,28 @@
+.rectangle {
+    position: absolute;
+    width: 228px;
+    height: 275px;
+    left: 41px;
+    top: 43px;
+    background: #131313;
+    border-radius: 15px;
+}
+
+.dashboard{
+
+    position: absolute;
+    width: 111px;
+    height: 42px;
+    left: 303px;
+    top: 43px;
+
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 42px;
+    /* identical to box height */
+
+    color: rgba(19, 17, 17, 0.719);
+    
+}
