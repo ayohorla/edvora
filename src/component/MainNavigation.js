@@ -3,16 +3,21 @@ import { Link } from 'react-router-dom';
 function MainNavigation() {
     return (
         <header className>
-            <div className>Edvora</div>
+            <div>Edvora</div>
             <nav>
                 <ul>
                     <li>
-                        <Link to='/'>Login</Link>
+                        <Link to='/'>Home</Link>
                     </li>
                     <li>
-                        <Link to='/register'>Register</Link>
+                        <Link to='/product'>Product</Link>
                     </li>
-
+                    <li>
+                        <Link to = '/state'>State</Link>
+                    </li>
+                    <li>
+                        <Link to='/city'>City</Link>
+                    </li>
                 </ul>
             </nav>
         </header>
